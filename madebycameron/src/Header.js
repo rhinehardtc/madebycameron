@@ -9,7 +9,7 @@ const Header = (props) => {
     const headerStyleLight = {
         "display": "flex",
         flexFlow: "row",
-        justifyContent: "center",
+        justifyContent: "space-around",
         alignItems: "center",
         backgroundColor: "cyan",
         color: lightColor,
@@ -19,7 +19,7 @@ const Header = (props) => {
     const headerStyleDark = {
         "display": "flex",
         flexFlow: "row",
-        justifyContent: "center",
+        justifyContent: "space-around",
         alignItems: "center",
         backgroundColor: "cyan",
         color: darkColor,
@@ -27,20 +27,23 @@ const Header = (props) => {
     };
 
     const buttonStyleLight = {
-        alignSelf: "center",
-        float: "right",
         borderRadius: "50%",
         backgroundColor: lightColor,
     };
 
     const buttonStyleDark = {
-        alignSelf: "center",
         borderRadius: "50%",
         backgroundColor: darkColor,
-    }
+    };
+
+    const hiddenButton = {
+        visibility: "hidden",
+        borderRadius: "50%"
+    };
 
     return(
         <div style={theme === "light" ? headerStyleLight : headerStyleDark}>
+            <button style={hiddenButton}>{theme === "light" ? "🌙" : "☀️"}</button>
             <h1>Cameron Rhinehardt</h1>
             <button 
                 onClick={ () => theme === "light" ? setTheme("dark") : setTheme("light") }
@@ -48,7 +51,6 @@ const Header = (props) => {
             >
                 {theme === "light" ? "🌙" : "☀️"}
             </button>
-            <h3>{theme === "light" ? "light" : "dark"}</h3>
         </div>
     )
 }

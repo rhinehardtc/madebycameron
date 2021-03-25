@@ -6,10 +6,7 @@
 
 h1 {
   display:flex;
-  align-self: center;
   font-size: 5vmin;
-  margin: 0;
-  margin-right: 5vw;
   font-family: 'Comfortaa', cursive;
 }
 
