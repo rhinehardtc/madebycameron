@@ -19,3 +19,13 @@ h3 {
 button {
   outline: none;
 }
+
+button::selection {
+  color: none;
+  background: none;
+}
+/* For Mozilla Firefox */
+button::-moz-selection {
+  color: none;
+  background: none;
+}
