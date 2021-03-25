@@ -10,10 +10,24 @@ h1 {
   font-family: 'Comfortaa', cursive;
 }
 
+h2 {
+  text-align: center;
+  font-size: 3vmin;
+  font-family: 'Comfortaa', cursive;
+}
+
 h3 {
   font-size: 2vmin;
   font-family: 'Comfortaa', cursive;
   margin: 0;
+}
+
+p {
+  font-size: 1.7vmin;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 button {

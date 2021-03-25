@@ -5,7 +5,7 @@ const ProjectsContainer = (props) => {
 
     const {theme} = props;
 
-    const maskStyle = {backgroundColor: "#00ffff47", width: "100%", height: "15%", backdropFilter: "blur(3px)", zIndex: 2};
+    const maskStyle = {backgroundColor: "#00ffff47", width: "100%", height: "10%", backdropFilter: "blur(3px)", zIndex: 2};
     const cardContainerStyle = {
         display: "flex", 
         flexFlow: "column nowrap", 
