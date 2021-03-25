@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App" style={theme === "light" ? lightTheme : darkTheme}>
       <Header theme={theme} setTheme={setTheme} />
-      <ProjectsContainer />
+      <ProjectsContainer theme={theme} />
       <Footer theme={theme} />
     </div>
   );
