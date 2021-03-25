@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import React, {useState} from 'react';
 import ProjectsContainer from './ProjectsContainer';
+import Footer from './Footer';
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -19,8 +20,9 @@ function App() {
 
   return (
     <div className="App" style={theme === "light" ? lightTheme : darkTheme}>
-      <Header theme={theme} setTheme={setTheme}/>
+      <Header theme={theme} setTheme={setTheme} />
       <ProjectsContainer />
+      <Footer theme={theme} />
     </div>
   );
 }
