@@ -20,3 +20,7 @@ html {
     scrollbar-width: none;
     scroll-behavior: smooth;
 }
+
+* {
+  transition: 0.5s;
+}
