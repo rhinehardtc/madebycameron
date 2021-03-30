@@ -28,26 +28,26 @@ const Header = (props) => {
 
     const buttonStyleLight = {
         display: "flex",
-        borderRadius: "50%",
-        backgroundColor: lightColor,
+        borderRadius: "5px",
+        backgroundColor: "cyan",
         color: "cyan",
-        fontSize: "1.5vmin",
-        width: "3.5vmin",
-        height: "3.2vmin",
+        fontSize: "2.5vmin",
+        width: "4.0vw",
+        height: "1.2vmin",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "flex-start",
     };
 
     const buttonStyleDark = {
         display: "flex",
-        borderRadius: "50%",
-        backgroundColor: darkColor,
+        borderRadius: "5px",
+        backgroundColor: "cyan",
         color: "white",
-        fontSize: "1.5vmin",
-        width: "3.5vmin",
-        height: "3.2vmin",
+        fontSize: "2.5vmin",
+        width: "4.0vw",
+        height: "1.2vmin",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "flex-end",
     };
 
     return(
@@ -63,7 +63,7 @@ const Header = (props) => {
                     onClick={ () => theme === "light" ? setTheme("dark") : setTheme("light") }
                     style={ theme === "light" ? buttonStyleLight : buttonStyleDark }
                 >
-                    {theme === "light" ? "☼" : "☽"}
+                    {theme === "light" ? "⚪️" : "🟣"}
                 </button>
             </div>
         </div>

@@ -35,6 +35,10 @@ button {
   outline: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 button::selection {
   color: none;
   background: none;
