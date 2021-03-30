@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/madebycameron/static/css/main.38f577f5.chunk.css",
-    "main.js": "/madebycameron/static/js/main.0a615727.chunk.js",
-    "main.js.map": "/madebycameron/static/js/main.0a615727.chunk.js.map",
+    "main.css": "/madebycameron/static/css/main.87a16b24.chunk.css",
+    "main.js": "/madebycameron/static/js/main.30de77a6.chunk.js",
+    "main.js.map": "/madebycameron/static/js/main.30de77a6.chunk.js.map",
     "runtime-main.js": "/madebycameron/static/js/runtime-main.818b0a7e.js",
     "runtime-main.js.map": "/madebycameron/static/js/runtime-main.818b0a7e.js.map",
     "static/js/2.439afa23.chunk.js": "/madebycameron/static/js/2.439afa23.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.e4207601.chunk.js": "/madebycameron/static/js/3.e4207601.chunk.js",
     "static/js/3.e4207601.chunk.js.map": "/madebycameron/static/js/3.e4207601.chunk.js.map",
     "index.html": "/madebycameron/index.html",
-    "static/css/main.38f577f5.chunk.css.map": "/madebycameron/static/css/main.38f577f5.chunk.css.map",
+    "static/css/main.87a16b24.chunk.css.map": "/madebycameron/static/css/main.87a16b24.chunk.css.map",
     "static/js/2.439afa23.chunk.js.LICENSE.txt": "/madebycameron/static/js/2.439afa23.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.818b0a7e.js",
     "static/js/2.439afa23.chunk.js",
-    "static/css/main.38f577f5.chunk.css",
-    "static/js/main.0a615727.chunk.js"
+    "static/css/main.87a16b24.chunk.css",
+    "static/js/main.30de77a6.chunk.js"
   ]
 }
