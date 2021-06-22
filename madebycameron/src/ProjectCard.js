@@ -6,9 +6,9 @@ const ProjectCard = (props) => {
         display: "flex", 
         alignItems: "center",
         width: "80vw", 
-        height: "65vmin", 
-        marginTop: "20vh",
-        marginBottom: "20vh",
+        minHeight: "65vmin", 
+        marginTop: "10vh",
+        marginBottom: "10vh",
         border: theme === "light" ? "1px solid cyan" : "1px solid purple",
         color: theme === "light" ? "#00cece" : "white",
     };
