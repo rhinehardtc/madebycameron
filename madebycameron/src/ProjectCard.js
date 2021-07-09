@@ -37,7 +37,7 @@ const ProjectCard = (props) => {
                 <p style={{textAlign: "center", width: "80%"}}>{project.description}</p>
                 <a 
                     style={linkStyle}
-                    href={project.githubURL}
+                    href={project.gitHubURL}
                 >
                     <h3>GitHub Repo</h3>
                 </a>
